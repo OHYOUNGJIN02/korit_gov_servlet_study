@@ -79,7 +79,7 @@ public class UserServlet extends HttpServlet {
             resp.setStatus(404);
             resp.getWriter().println(username+"을 찾을 수 없습니다.");
         }
-1
+11
 //        Arrays.stream(username.getClass().getDeclaredFields()).forEach(u -> {
 //            //private 필드에도 접근할 수 있게 강제로 접근 허용
 //            u.setAccessible(true);
